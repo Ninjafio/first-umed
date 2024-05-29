@@ -1,0 +1,175 @@
+.introBlock-main {
+  background: linear-gradient(hsla(0, 0%, 29%, 0.4), hsla(0, 0%, 29%, 0.4)),
+    -webkit-image-set(url("https://cdn-ru.bitrix24.ru/b11758382/landing/50f/50f21f4680df5b52cb25c305b0c8047a/female-cosmetologist-making-facial-treatment-to-a-beautiful-woma_1x.jpg")
+          1x, url("https://cdn-ru.bitrix24.ru/b11758382/landing/d7e/d7eda4e19b34928344e230b6d96f8ad9/female-cosmetologist-making-facial-treatment-to-a-beautiful-woma_2x.jpg")
+          2x);
+
+  min-height: 970px;
+  display: flex;
+  background-size: cover;
+}
+
+.introBlock-container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1110px;
+}
+
+.introBlock-container__subTitle {
+  color: #fafafafa;
+  text-align: center;
+  font-size: 18px;
+}
+
+.introBlock-container__title {
+  font-family: "Rubik-extraBold";
+  font-size: 85px;
+  font-weight: 1000;
+  color: #b7d477;
+  width: 1110px;
+  text-align: center;
+  margin: 0;
+}
+
+.introBlock-container__title::selection {
+  color: #fff;
+  background-color: #b7d478;
+}
+
+.introBlock-container__subPrice {
+  color: #fafafafa;
+  text-align: center;
+  font-size: 30px;
+  width: 1110px;
+  margin-bottom: 0;
+}
+
+.introBlock-container__price {
+  font-family: "Rubik-extraBold";
+  color: #fafafafa;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 900;
+  width: 1110px;
+  margin-top: 0;
+}
+
+.introBlock-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+}
+
+.introBlock-list__item {
+  color: #fafafafa;
+  font-size: 23px;
+  font-weight: 900;
+  width: 200px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1190px) {
+  .introBlock-container__title {
+    width: 800px !important;
+  }
+  .introBlock-container {
+    width: 900px !important;
+  }
+  .introBlock-container__subPrice {
+    width: 350px !important;
+  }
+  .introBlock-container__price {
+    width: 300px !important;
+  }
+}
+
+@media only screen and (max-width: 905px) {
+  .introBlock-container__title {
+    width: 700px !important;
+  }
+  .introBlock-container {
+    width: 800px !important;
+  }
+  .introBlock-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .introBlock-container__title {
+    width: 500px !important;
+    font-size: 54px;
+  }
+  .introBlock-container {
+    width: 500px !important;
+  }
+  .introBlock-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .introBlock-container__title {
+    width: 500px !important;
+    font-size: 33px;
+  }
+  .introBlock-container {
+    width: 500px !important;
+  }
+  .introBlock-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+  }
+  .introBlock-list__item {
+    font-size: 18px;
+  }
+  .introBlock-container__subTitle {
+    font-size: 16px;
+  }
+  .introBlock-container__subPrice {
+    width: 500px;
+    font-size: 16px;
+  }
+  .introBlock-container__price {
+    width: 500px;
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .introBlock-container__title {
+    width: 400px !important;
+    font-size: 33px;
+  }
+  .introBlock-container {
+    width: 350px !important;
+  }
+  .introBlock-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .introBlock-container__title {
+    width: 300px !important;
+    font-size: 33px;
+  }
+  .introBlock-container {
+    width: 300px !important;
+  }
+  .introBlock-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+  }
+}

@@ -1,0 +1,112 @@
+.ContactBlock {
+  overflow: hidden;
+}
+
+.contact-container {
+  max-width: 1110px;
+  margin: 0 auto;
+
+  h2 {
+    font-family: "Rubik-extraBold";
+    color: black;
+    font-size: 35px;
+    max-width: 1110px;
+  }
+  .title-underline {
+    height: 10px;
+    width: 70px;
+    background-color: #b7d477;
+    margin-top: 20px;
+  }
+  p {
+    margin-top: 20px;
+    color: #494949;
+  }
+}
+
+.mapBlock {
+  width: 100%;
+}
+
+.footer-container {
+  height: 400px;
+  margin-top: -4px;
+  background-color: #5e419d;
+
+  .footer-top {
+    height: 65px;
+    background-color: #f2f2f2;
+    display: flex;
+
+    .footer-top__btn {
+      font-family: "Rubik-extraBold";
+      margin: auto;
+      width: 325px;
+      height: 40px;
+      font-size: 15px;
+      border: none;
+      transition: 0.3s;
+      color: hsla(0, 0%, 71%, 1);
+      border-radius: 50px;
+      cursor: pointer;
+    }
+    .footer-top__btn:hover {
+      background-color: hsla(0, 0%, 100%, 1);
+      color: #5e419d;
+    }
+  }
+  .footer-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    color: #fff;
+    flex-direction: column;
+
+    .footer-bottom-wrapper {
+      margin-top: 50px;
+      display: flex;
+      align-items: center;
+      max-width: 1110px;
+      width: 100%;
+
+      span:nth-of-type(1) {
+        font-family: "Rubik-extraBold";
+        font-size: 15px;
+      }
+
+      .footer-bottom__btn {
+        font-family: "Rubik-extraBold";
+        margin: auto;
+        width: 160px;
+        height: 40px;
+        font-size: 15px;
+        border: none;
+        transition: 0.3s;
+        color: #fff;
+        border-radius: 50px;
+        cursor: pointer;
+        background-color: #5e419d;
+      }
+      .footer-bottom__btn:hover {
+        background-color: hsla(259, 41%, 54%, 1);
+        color: #a5c33c;
+      }
+      .bottom__par {
+        text-align: center;
+      }
+    }
+  }
+}
+
+.footer__btns {
+    margin-left: 36%;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 540px) {
+  .footer__btns {
+    margin-left: 6%;
+    cursor: pointer;
+}
+}

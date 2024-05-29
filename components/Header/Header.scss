@@ -1,0 +1,240 @@
+.header {
+    min-height: 97px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    transition: .3s all;
+    overflow: hidden;
+    padding-bottom: 0;
+    z-index: 99;
+    position: relative;
+}
+
+.header-main {
+    min-height: 97px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    transition: .3s all;
+    overflow: hidden;
+    padding-bottom: 1px;
+    z-index: 99;
+}
+
+.logo {
+    width: 180px;
+    margin-right: 300px;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+}
+
+.navbar__link {
+    color: #999999;
+    font-weight: 400;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.navbar__link_bold {
+    font-weight: 900;
+    font-size: 13px;
+}
+
+#check-menu {
+    display: none;
+}
+
+#check-menu-brg {
+    display: none;
+}
+
+.brg-line {
+    display: none;
+    position: fixed;
+    top: 8px;
+    width: 30px;
+    height: 1px;
+    background-color: #999999;
+    transition: .3s all;
+    margin-left: 455px;
+    margin-top: 30px;
+    z-index: 100;
+}
+
+.brg-line:nth-of-type(2),
+.brg-line:nth-of-type(3) {
+    top: 18px;
+}
+
+.brg-line:nth-of-type(4) {
+    top: 28px;
+}
+
+.navbar-burger {
+    margin-right: 500px;
+    margin-top: 90px;
+    position: absolute;
+    display: none;
+}
+
+.brg-label {
+    display: none;
+    position: absolute;
+    top: 0;
+    margin-left: 450px;
+    margin-top: 40px;
+    cursor: pointer;
+    line-height: 10px;
+    user-select: none;
+    font-size: 50px;
+    color: #fff;
+    z-index: 100;
+}
+
+.navbar-burger li {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: #999;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+#check-menu:checked ~ .header {
+    padding-bottom: 210px;
+    position: relative;
+    animation: fadeIn 1s ease-in-out;
+}
+
+
+#check-menu:checked ~ .brg-line:nth-of-type(1),
+#check-menu:checked ~ .brg-line:nth-of-type(4) {
+    display: none;
+}
+
+#check-menu:checked ~ .brg-line:nth-of-type(2) {
+    transform: rotate(45deg);
+}
+
+#check-menu:checked ~ .brg-line:nth-of-type(3) {
+    transform: rotate(-45deg);
+}
+
+@media only screen and (max-width: 1200px) {
+    .logo {
+        margin-right: 70px;
+    }
+}
+
+
+@media only screen and (max-width: 990px) {
+    .navbar {
+        display: none;
+    }
+    .navbar-burger {
+        display: block;
+    }
+    .brg-label,
+    .brg-line {
+        display: block;
+    }
+    .logo {
+        position: absolute;
+        margin-right: 400px;
+        margin-top: 20px;
+    }
+    .header {
+        align-items: normal;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        display: none;
+    }
+    .navbar-burger {
+        display: block;
+    }
+    .brg-label,
+    .brg-line {
+        display: block;
+    }
+    .logo {
+        position: absolute;
+        margin-right: 300px;
+        margin-top: 20px;
+    }
+    .header {
+        align-items: normal;
+    }
+    .navbar-burger {
+        margin-right: 400px;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .brg-label,
+    .brg-line {
+        display: block;
+        margin-right: 50px;
+    }
+    .logo {
+        position: absolute;
+        margin-right: 200px;
+        margin-top: 20px;
+    }
+    .header {
+        align-items: normal;
+    }
+    .navbar-burger {
+        margin-right: 300px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .brg-label,
+    .brg-line {
+        display: block;
+        margin-right: 150px;
+    }
+    .logo {
+        position: absolute;
+        margin-right: 200px;
+        margin-top: 20px;
+    }
+    .header {
+        align-items: normal;
+    }
+    
+}
+
+@media only screen and (max-width: 400px) {
+    .brg-label,
+    .brg-line {
+        display: block;
+        margin-right: 200px;
+    }
+    .logo {
+        position: absolute;
+        margin-right: 100px;
+        margin-top: 20px;
+    }
+    .header {
+        align-items: normal;
+    }
+    .navbar-burger {
+        margin-right: 200px;
+    }
+    
+}

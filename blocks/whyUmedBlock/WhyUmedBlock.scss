@@ -1,0 +1,584 @@
+.whyUmedBlock {
+  overflow: hidden;
+
+  .sell-container {
+    background-color: #fafafa;
+
+    span {
+      color: #4a4a4a;
+      font-size: 18px;
+    }
+    span:nth-of-type(1) {
+      font-family: "Rubik-extraBold";
+      font-size: 40px;
+      margin-top: 40px;
+    }
+    span:nth-of-type(2) {
+      font-family: "Rubik-extraBold";
+      color: hsla(73, 60%, 53%, 1);
+      font-size: 48px;
+    }
+    span:nth-of-type(4) {
+      font-family: "Rubik-extraBold";
+      color: hsla(0, 0%, 43%, 0.8);
+      font-size: 25px;
+      margin: 30px 0;
+    }
+    span:nth-of-type(5) {
+      font-size: 17px;
+    }
+    span:nth-of-type(6) {
+      font-size: 17px;
+      margin-top: -5px;
+    }
+    span:nth-of-type(7) {
+      font-size: 17px;
+      margin-top: -5px;
+    }
+    .price-underline {
+      height: 4px;
+      width: 71%;
+      background-color: #b7d477;
+      margin-top: -15px;
+    }
+    p {
+      color: hsla(0, 0%, 29%, 0.8) !important;
+      font-size: 14px;
+      text-align: justify;
+      width: 766px;
+      line-height: 1.6;
+    }
+    .default_bg {
+      margin-top: 0;
+      width: 188px;
+      height: 55px;
+      font-size: 18px;
+    }
+  }
+}
+
+.faq-container {
+  max-width: 1110px;
+  margin: 0 auto;
+
+  .faq-list {
+    margin: 0;
+    padding: 0;
+
+    li {
+      padding-top: 2.8rem;
+      padding-bottom: 2.8rem;
+
+      h3 {
+        font-size: 14px;
+      }
+      p {
+        font-size: 14px;
+        color: #999;
+      }
+    }
+  }
+  h2 {
+    font-family: "Rubik-extraBold";
+    font-size: 35px;
+    color: #5f429e;
+    margin: 60px 0 10px 0;
+  }
+}
+
+.teachers-container {
+  background-color: #b7d477;
+  height: 700px;
+  width: 100vw;
+  margin-top: 100px;
+  left: 0;
+  transform: skew(5deg) rotate(5deg);
+
+  h2 {
+    font-family: "Rubik-extraBold";
+    transform: skew(-5deg) rotate(-5deg);
+    width: 1110px;
+    margin: 0 auto;
+    padding-top: 120px;
+    font-size: 36px;
+    color: #fff;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-decoration-thickness: 5px;
+  }
+  p {
+    transform: skew(-5deg) rotate(-5deg);
+    color: #fff;
+    width: 1110px;
+    margin: 0 auto;
+    padding-top: 30px;
+    letter-spacing: 0.21429rem;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+  .cards-wrapper {
+    display: flex;
+    transform: skew(-5deg) rotate(-5deg);
+    margin: 60px auto;
+    width: 950px;
+    gap: 9.54286rem;
+
+    .teacher-card {
+      display: flex;
+      background-color: #fff;
+      min-width: 455px;
+      min-height: 260px;
+      align-items: center;
+
+      h3 {
+        font-family: "Rubik-extraBold";
+        transform: skew(0deg) rotate(0deg);
+        margin: -20px 0 30px 0;
+        letter-spacing: 0.21429rem;
+        font-size: 18px;
+      }
+      span {
+        transform: skew(-5deg) rotate(-5deg);
+        color: #999;
+        font-size: 16px;
+      }
+      p {
+        transform: skew(0deg) rotate(0deg);
+        color: #999;
+        letter-spacing: 1px;
+        width: 300px;
+        white-space: wrap;
+        margin: 0;
+        padding-top: 10px;
+      }
+      img {
+        width: 160px;
+        height: 160px;
+        margin-left: -80px;
+      }
+      .card-txt-wrapper {
+        padding-left: 30px;
+      }
+    }
+  }
+}
+
+.whyUmed-container {
+  width: 1110px;
+  margin: 180px auto 0;
+
+  h2 {
+    font-family: "Rubik-extraBold";
+    font-size: 40px;
+    color: hsla(0, 0%, 29%, 1);
+
+    .whyUmed-title-primary {
+      color: rgb(160, 199, 79);
+    }
+  }
+  p {
+    color: #999;
+    font-size: 18px;
+    padding-top: 70px;
+  }
+  .btn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+
+    .default_md {
+      margin: 0;
+      width: 166px;
+      height: 55px;
+      font-size: 18px;
+    }
+  }
+}
+
+.whyUmed-gallery-container {
+  display: flex;
+  width: 1110px;
+  margin: 50px auto 0;
+  align-items: center;
+
+  .GalleryImage_lg {
+    width: 540px;
+    height: 540px;
+
+    img {
+      width: 540px;
+      height: 540px;
+    }
+
+    &:hover span {
+      display: none;
+    }
+  }
+  .GalleryImage_md {
+    width: 255px;
+    height: 255px;
+
+    img {
+      width: 255px;
+      height: 255px;
+    }
+  }
+  .GalleryImage_md:hover span {
+    display: none;
+  }
+  .gallery-container-right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 600px;
+    margin-left: 30px;
+  }
+}
+
+.docs-container {
+  width: 1110px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+
+  p {
+    font-size: 16px;
+    color: #999;
+  }
+  a {
+    color: #a5c33c;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .docs-title-primary {
+    font-family: "Rubik-extraBold";
+    color: #5e419d;
+    font-size: 28px;
+    max-width: 730px;
+    margin-top: 70px;
+  }
+  img {
+    width: 335px;
+    height: 230px;
+    margin-bottom: -300px;
+  }
+}
+
+.docs-container-title {
+  font-family: "Rubik-extraBold";
+  color: #b7d477;
+  font-size: 32px;
+}
+
+.docs-paragraf {
+  color: #4a4a4a !important;
+  font-size: 18px !important;
+  width: 730px;
+
+  span {
+    font-family: "Rubik-extraBold";
+    color: rgb(166, 195, 60) !important;
+  }
+}
+
+.vk-container {
+  max-width: 1110px;
+  width: 100%;
+  margin: auto;
+
+  .vk-txt-wrapper {
+    max-width: 760px;
+    width: 100%;
+
+    h2 {
+      font-family: "Rubik-extraBold";
+      font-size: 35px;
+      color: hsla(0, 0%, 29%, 1);
+      max-width: 760px;
+      width: 100%;
+    }
+  }
+  .vk-btn-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .vk-logo {
+      height: 30px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .faq-container {
+    h2 {
+      width: 930px;
+      margin: auto;
+      margin-top: 100px;
+    }
+    .faq-list {
+      width: 930px;
+      margin: auto;
+    }
+  }
+  .teachers-container {
+    h2 {
+      width: 930px;
+    }
+    p {
+      width: 930px;
+      white-space: wrap;
+    }
+    .cards-wrapper {
+      width: 930px;
+
+      .teacher-card {
+        min-width: 365px;
+
+        .card-txt-wrapper {
+          p {
+            width: 210px;
+            white-space: wrap;
+          }
+        }
+      }
+    }
+  }
+  .whyUmed-container {
+    width: 930px;
+  }
+  .whyUmed-gallery-container {
+    .GalleryImage_lg {
+      width: 450px;
+      height: 540px;
+    }
+    .gallery-container-right {
+      .GalleryImage_md {
+        width: 210px;
+      }
+    }
+  }
+  .docs-container {
+    max-width: 1110px;
+    width: 100%;
+
+    div {
+      .docs-container-title {
+        width: 630px;
+      }
+      p {
+        width: 630px;
+
+      }
+    }
+  }
+  .ContactBlock {
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .faq-container {
+    h2 {
+      width: 690px;
+      margin: auto;
+      margin-top: 100px;
+    }
+    .faq-list {
+      width: 690px;
+      margin: auto;
+    }
+  }
+  .teachers-container {
+    height: 1100px;
+
+    h2 {
+      width: 720px;
+    }
+    p {
+      width: 720px;
+      white-space: wrap;
+    }
+    .cards-wrapper {
+      width: 720px;
+      flex-direction: column;
+      gap: 2.54286rem;
+
+      .teacher-card {
+        min-width: 365px;
+
+        .card-txt-wrapper {
+          p {
+            width: 610px;
+            white-space: wrap;
+          }
+        }
+      }
+    }
+  }
+  .whyUmed-container {
+    width: 690px;
+  }
+  .whyUmed-gallery-container {
+    width: 720px;
+
+    .GalleryImage_lg {
+      width: 330px;
+      height: 540px;
+    }
+    .gallery-container-right {
+      .GalleryImage_md {
+        width: 150px;
+      }
+    }
+  }
+  .docs-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 300px;
+  }
+  .price-wrapper {
+    p {
+      max-width: 600px;
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 745px) {
+  .faq-container {
+    margin-left: 10px;
+    h2 {
+      max-width: 510px;
+      width: 100%;
+      margin: auto;
+      margin-top: 100px;
+    }
+    .faq-list {
+      max-width: 510px;
+      width: 100%;
+      margin: auto;
+    }
+  }
+  .teachers-container {
+    height: 1200px;
+
+    h2 {
+      max-width: 510px;
+      width: 100%;
+    }
+    p {
+      max-width: 510px;
+      width: 100%;
+      white-space: wrap;
+    }
+    .cards-wrapper {
+      max-width: 510px;
+      width: 100%;
+      flex-direction: column;
+      gap: 2.54286rem;
+
+      .teacher-card {
+        flex-direction: column;
+        max-width: 510px;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          margin-bottom: 60px;
+          margin-left: 0;
+        }
+        .card-txt-wrapper {
+          padding: 0 20px 20px;
+
+          p {
+            width: 310px;
+            white-space: wrap;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+  .whyUmed-container {
+    max-width: 510px;
+    width: 100%;
+  }
+  .whyUmed-gallery-container {
+    width: 520px;
+    flex-direction: column;
+    display: flex;
+
+    .GalleryImage_lg {
+      width: 510px;
+      height: 525px;
+    }
+    .gallery-container-right {
+      margin-left: 90px;
+      margin-top: 30px;
+
+      .GalleryImage_md {
+        width: 240px;
+        height: 240px;
+      }
+    }
+  }
+  .price-wrapper {
+    p {
+      max-width: 300px;
+      width: 100%;
+    }
+  }
+  .docs-container {
+    max-width: 1110px;
+    width: 100%;
+
+    div {
+      .docs-container-title {
+        max-width: 510px;
+        width: 100%;
+      }
+      p {
+        max-width: 510px;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .whyUmed-gallery-container {
+    max-width: 520px;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+
+    .GalleryImage_lg {
+      max-width: 510px;
+      width: 100%;
+      max-height: 525px;
+      height: 100%;
+    }
+    .gallery-container-right {
+      margin-left: 90px;
+      margin-top: 30px;
+      flex-direction: column;
+
+      .GalleryImage_md {
+        max-width: 510px;
+        width: 100%;
+        max-height: 525px;
+        height: 100%;
+
+        img {
+          max-width: 510px;
+          width: 100%;
+          max-height: 525px;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
